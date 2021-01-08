@@ -1,4 +1,4 @@
-# Yolo v3 Object Detection with Tensorflow 2.0
+# Yolo v3 Object Detection with Tensorflow 1.X
 Yolo v3 is an algorithm that uses deep convolutional neural networks to detect objects. <br> <br>
 
 ## Getting started
@@ -28,13 +28,13 @@ You should see something like this.
 ```
 detection_1.jpg
 ```
-![alt text](https://github.com/heartkilla/yolo-v3/blob/master/data/detection_examples/detection_1.jpg)
+![alt text](https://github.com/OmerOzgur271/SheepDetection-YoloV3/blob/main/detections/detection_1.jpg)
 ```
 
 ### Video example
 You can also run the script with video files.
 ```
-python detect.py video 0.5 0.5 data/video/shinjuku.mp4
+python detect.py video 0.5 0.5 data/video/koyun.mp4
 ```
 The detections will be saved as `detections.mp4` file.
 ![alt text](https://github.com/heartkilla/yolo-v3/blob/master/data/detection_examples/detections.gif)
