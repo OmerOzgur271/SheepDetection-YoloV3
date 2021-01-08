@@ -1,1 +1,0 @@
-# SheepDetection-YoloV3
