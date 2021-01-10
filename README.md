@@ -20,7 +20,7 @@ python detect.py <images/video/webcam> <iou threshold> <confidence threshold> <f
 ### Images example
 Let's run an example using sample images.
 ```
-python detect.py images 0.5 0.5 data/images/dog.jpg data/images/testkoyun.jpeg
+python detect.py images 0.5 0.5 data/images/testkoyun.jpeg
 ```
 Then you can find the detections in the `detections` folder.
 <br>
@@ -36,12 +36,6 @@ You can also run the script with video files.
 ```
 python detect.py video 0.5 0.5 data/video/koyun.mp4
 ```
-The detections will be saved as `detections.mp4` file.
-![alt text](https://github.com/heartkilla/yolo-v3/blob/master/data/detection_examples/detections.gif)
-### Webcam example
-The script can also be ran using your laptops webcam as the input. Example command shown below.
-```
-python detect.py webcam 0.5 0.5
 ```
 The detections will be saved as 'detections.mp4' in the data/detections folder.
 
