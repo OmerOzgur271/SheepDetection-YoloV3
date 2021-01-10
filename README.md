@@ -33,10 +33,7 @@ detection_1.jpg
 
 ### Video example
 You can also run the script with video files.
-```
-python detect.py video 0.5 0.5 data/video/koyun.mp4
+```python detect.py video 0.5 0.5 data/video/koyun.mp4
 ```
 The detections will be saved as 'detections.mp4' in the data/detections folder.
-```
-
 
