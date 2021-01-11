@@ -10,7 +10,7 @@ This project is written in Python 3.6 using Tensorflow 1.X (deep learning), NumP
 pip install -r requirements.txt
 ```
 ## Getting the weights
-Download https://drive.google.com/file/d/1_-UxoPknacJOKOFvATzGLNpHCkQ-5OtL/view?usp=sharing 
+Download https://drive.google.com/file/d/1mbK2_xHatr_503M5Lm3nQp3q58Ew3oUR/view?usp=sharing
 then unzip and add the weights file to the main folder.
 
 ## Running the model
